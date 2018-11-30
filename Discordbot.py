@@ -1,7 +1,7 @@
 import discord
 from discord.ext.commands import Bot
 
-TOKEN = 'NTE1NTI0MTE3MTk0MDgwMjU3.DtmXJg.xwwK9uDmA3jNUmJnk4fqyO3SnaI'
+TOKEN = '(token)'
 BOT_PREFIXES = ('!')
 mybot = Bot(command_prefix=BOT_PREFIXES)
 
