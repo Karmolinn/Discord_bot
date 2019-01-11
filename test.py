@@ -11,12 +11,6 @@ mybot = Bot(command_prefix=BOT_PREFIXES)
 async def save_image(context,message):
         imglist = os.listdir("$$$save_image")
 
-$content = file_get_contents("https://cdn.newsapi.com.au/image/v1/ddb04e16b9184a3970aa4dabcfec50a0");
-//Store in the filesystem.
-$fp = fopen("/Piltide_kaust");
-fwrite(fp, content);
-fclose(fp);
-
 mybot.run(TOKEN)
 
 
