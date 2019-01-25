@@ -17,12 +17,13 @@ async def save_image(context,url,filename):
         if response.status_code == 200:
                 with open(IMAGEDIRECTORY + "/" + filename, 'wb') as f:
                         f.write(response.content)
+@mybot.command(pass_context=True)
+async def upload(context,filename):
 
+                img = open(IMAGEDIRECTORY + '/' + filename, 'rb')
+                Bot.send_chat_action(message.chat.id, "upload")
+                Bot.send_photo(message.chat.id, img)
+                img.close()
 
+        
 mybot.run(TOKEN)
-
-
-
-
-
-
