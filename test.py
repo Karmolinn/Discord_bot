@@ -5,7 +5,7 @@ import discord
 from discord.ext.commands import Bot
 
 IMAGEDIRECTORY= "C:/Users/kalinnu/Desktop/Piltide_kaust"
-TOKEN = 'NTE4MTAwNTA4NjkxNTI5NzM5.DyyRdg.w3dwZYP1fCR8JytEg85-iWGk7Ok'
+TOKEN = ''
 
 BOT_PREFIXES = ('!')
 mybot = Bot(command_prefix=BOT_PREFIXES)
